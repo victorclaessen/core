@@ -765,14 +765,14 @@ _CONVERTED_VALUE: dict[
         (5, PERCENTAGE, 0.05, None),
     ],
     MassVolumeConcentrationConverter: [
-        # 1000 µg/m³ = 1 mg/m³
+        # 1000 μg/m³ = 1 mg/m³
         (
             1000,
             CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
             1,
             CONCENTRATION_MILLIGRAMS_PER_CUBIC_METER,
         ),
-        # 2 mg/m³ = 2000 µg/m³
+        # 2 mg/m³ = 2000 μg/m³
         (
             2,
             CONCENTRATION_MILLIGRAMS_PER_CUBIC_METER,
